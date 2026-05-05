@@ -2,7 +2,7 @@
 
 ONBUILD directives pose a supply chain risk. Onbuild Guardian lets you scan for them, and allow-list the ones you're certain are safe
 
-Installation: `go install github.com/O3-Cyber/onbuild-guardian`
+Installation: `go install github.com/O3-Cyber/onbuild-guardian@latest`
 Usage: `onbuild-guardian <base-image>`
 
 When you identify ONBUILD directives that you're ok with, add them to `.onbuild-guardian.yaml` like so:
